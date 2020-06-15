@@ -1,0 +1,106 @@
+/* ------------------------------------
+
+features
+
+------------------------------------*/ 
+
+.features{
+    padding: 60px 0 100px 0;
+  
+    &__heading{
+      color: $navy;
+      font-weight: bold;
+      text-align: center;
+      &--h3{
+        font-size: 30px;
+      }
+      &--h2{
+        font-size: 50px;
+      }
+    }
+  }
+  
+  .feature-box{
+  
+    &__type1{
+      margin-top: 40px;
+      padding: 25px 105px 44px 105px;
+      background-color: $gray;
+      box-shadow: #{$box-shadow-weaker};
+      &--boxes{
+        display: flex;
+        flex-wrap:  wrap;
+        justify-content: center;
+      }
+    }
+  
+    &__number{
+      font-size: 30px;
+      text-align: center;
+    }
+  
+    &__heading-text{
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    &__colored-text{
+      color: $orenge;
+      font-weight: bold;
+      font-size: 23px;
+    }
+  
+    &__type2{
+      display: flex;
+      margin-top: 20px;
+      margin-bottom: 100px;
+  
+      &--box{
+        width: 50%;
+        background-color: $gray;
+        box-shadow: #{$box-shadow-weaker};
+      }
+  
+      &--box.first{
+        margin-right: 20px;
+      }
+  
+      &--img{
+        display: block;
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+      }
+    }
+  
+  }
+  
+  .feature-small-box{
+    width: 23%;
+    height: 167px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-top: 26px;
+    border: 1px solid #707070;
+    border-radius: 34px;
+    background-color: #fff;
+  
+    &__img{
+      display: block;
+      width: 70px;
+      height: 70px;
+      margin: 0 auto;
+    }
+  
+    &__p{
+      padding-top: 30px;
+      text-align: center;
+  
+      &--2row{
+        /* 2行のテキストなので上間を狭く取る*/ 
+        padding-top: 15px;
+        text-align: center;
+      }
+    }
+  
+  }

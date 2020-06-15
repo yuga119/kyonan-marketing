@@ -1,0 +1,72 @@
+
+/* ------------------------------------
+
+service
+
+------------------------------------*/ 
+
+.service{
+    padding: 100px 0;
+    background-color: $gray;
+  
+    &__heading{
+      color: $navy;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    &__blocks{
+      display: flex;
+      align-items: center;
+      margin: 40px auto 100px auto;
+    }
+  
+    &__box{
+      padding: 40px 0 34px 0;
+      background-color: #fff;
+      text-align: center;
+      box-shadow: #{$box-shadow-weaker};
+      &--heading{
+        font-size: 23px;
+      }
+  
+      &--colored-heading{
+        color: $orenge;
+        font-size: 45px;
+        font-weight: 600;
+      }
+    }
+  }
+  
+  .service-block{
+    width: 25%;
+    height: 300px;
+    padding: 20px 10px;
+    background-color: #fff;
+    box-shadow: #{$box-shadow-weaker};
+  
+    &__heading{
+      font-size: 15px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    &__content{
+  
+      &--img{
+        display: block;
+        width: 80px;
+        height: 80px;
+        margin: 23px auto 30px auto
+      }
+    }
+  
+    &__arrow{
+      height: 25px;
+      margin: 0 10px;
+      border-top: 18px solid transparent;
+      border-bottom: 18px solid transparent;
+      border-left: 25px solid $navy;
+    }
+  }

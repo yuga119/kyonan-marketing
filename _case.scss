@@ -1,0 +1,79 @@
+/* ------------------------------------
+
+cases
+
+------------------------------------*/ 
+
+.cases{
+    padding: 100px 0;
+    background-color: $mizuiro;
+    &__heading{
+      margin-bottom: 40px;
+      color: $navy;
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  
+  .case{
+    display: flex;
+    margin-top: 10px;
+    padding: 30px 60px 50px 45px;
+    background-color: #fff;
+    box-shadow: #{$box-shadow-weaker};
+    
+    &__img{
+      margin-left: 50px;
+    }
+  
+    &__img--1{
+      width: 181px;
+      height: 239px;
+      margin-left: 50px;
+    }
+    &__img--2{
+      width: 183px;
+      height: 245px;
+      margin-left: 50px;
+    }
+    &__img--3{
+      width: 198px;
+      height: 249px;
+      margin-left: 50px;
+    }
+  
+    &__text{
+  
+      &--name{
+        font-size: 30px;
+        border-bottom: 2px solid #dddddd;
+        line-height: 40px;
+      }
+  
+      &--name .case-number{
+        color: $navy;
+        font-family: 'GungSeo';
+        font-size: 45px;
+  
+        &__number{
+        margin-right: 30px;
+        padding-left: 10px;
+        font-family: 'GungSeo';
+        font-size: 60px;
+        }
+      }
+  
+      &--heading{
+        margin-top: 27px;
+        font-size: 23px;
+  
+        &-colored{
+          margin-bottom: 25px;
+          font-size: 23px;
+          color: $orenge;
+        }
+      }
+  
+    }
+  }

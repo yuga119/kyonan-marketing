@@ -1,0 +1,21 @@
+.local{
+    height: 487px;
+    background-image: url(../image/local.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    &__heading{
+      padding-top: 88px;
+      padding-left: 219px;
+      color: $navy;
+      font-size: 50px;
+      font-weight: 600;
+    }
+  
+    &__detail{
+      padding-top: 38px;
+      padding-left: 219px;
+      font-size: 23px;
+    }
+  }

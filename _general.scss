@@ -1,0 +1,48 @@
+/* ------------------------------------
+
+general
+
+------------------------------------*/ 
+$orenge:#FF8E10;
+$navy:#32729D;
+$mizuiro:#DFEEF8;
+$gray:#F6F6F6;
+
+$box-shadow: '0 3px 6px rgba(141,129,116,1.0)';
+$box-shadow-weaker: '0px 3px 6px rgba(0,0,0,0.15)';
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+.cv-btn{
+  display: block;
+  width: 680px;
+  height: 110px;
+  margin: 0 auto;
+  padding: auto 60px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: $orenge;
+  font-size: 30px;
+  line-height: 110px;
+  text-align: center;
+  box-shadow: #{$box-shadow};
+}
+
+
+@mixin placeholder($color) {
+  &::placeholder {
+    color: $color;
+  }
+
+  // IE
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+
+  // Edge
+  &::-ms-input-placeholder {
+    color: $color;
+  }
+}

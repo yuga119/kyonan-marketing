@@ -1,0 +1,79 @@
+
+/* ------------------------------------
+
+merits
+
+------------------------------------*/ 
+
+.merits{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+    &__heading{
+      font-size: 50px;
+      font-weight: bold;
+      color: $navy;
+      text-align: center;
+    }
+  
+    &__merit{
+      display: flex;
+      margin-top: 100px;
+    }
+  
+    &__merit.reverse{
+      flex-flow: row-reverse;
+    }
+  
+  }
+  
+  .img-merit{
+    width: 50%;
+  
+    &__1{
+      width: 287px;
+      height: 199px;
+      margin: 0 auto;
+    }
+  
+    &__2{
+      width: 301px;
+      height: 245px;
+      margin: 0 auto;
+    }
+    
+    &__3{
+      width: 209px;
+      height: 239px;
+      margin: 0 auto;
+    }
+  
+    &__4{
+      width: 297px;
+      height: 214px;
+      margin: 0 auto;
+    }
+  }
+  
+  .text-merit{
+    position: relative;
+    width: 500px;
+    border-bottom: 2px solid $orenge;
+    &__heading{
+      font-size: 40px;
+    }
+  
+    &__number{
+      position: absolute;
+      top: -15%;
+      right: 0;
+      color: rgba($color: $orenge, $alpha: 0.15);
+      font-size: 100px;
+      font-weight: bold;
+    }
+  
+    &__details{
+      margin: 40px auto 30px auto;
+    }
+  }
+    

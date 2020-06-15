@@ -1,0 +1,54 @@
+/* ------------------------------------
+
+top
+
+------------------------------------*/ 
+.top{
+    position: relative;
+    height: 640px;
+    color: #fff;
+    background-color: #379FCC;
+
+    &__logo{
+      width: 318px;
+      height: 79px;
+    }
+
+    &__main{
+      position: absolute;
+      width: 380px;
+      height: 472px;
+      right: 0;
+      z-index: 0;
+    }
+
+    &__top-copy{
+      position: absolute;
+      top: 140px;
+      font-weight: bold;
+      z-index: 3;
+    }
+
+    &__top-copy h2{
+      font-size: 60px;
+    }
+    &__top-copy h3{
+      font-size: 40px;
+    }
+    &__top-subcopy{
+      position: absolute;
+      bottom: 155px;
+      font-size: 25px;
+    }
+  }
+
+  .top .container{
+    position: relative;
+    height: 640px;
+  }
+  .top .cv-btn{
+    position: absolute;
+    bottom: -55px;
+    left: 50%;
+    transform: translate(-50%,0%);
+  }
